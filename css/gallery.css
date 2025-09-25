@@ -1,0 +1,34 @@
+.gallery {
+    background-color: var(--bg-grey);
+    color: var(--text-color);
+    text-align: center;
+    font-size: 18px;
+    padding: 60px 30px 100px;
+}
+
+.gallery-title {
+    color: var(--title-color);
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+.gallery-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.gallery-description {
+    margin: 15px 0 40px;
+}
+
+.gallery-description:last-child {
+    margin-bottom: 0;
+}
+
+@media(max-width: 480px) {
+    .gallery-description {
+        font-size: 14px;        
+    }
+
+}

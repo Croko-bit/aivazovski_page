@@ -49,6 +49,9 @@ body {
 	padding: 0 10px;
 }
 
+html {
+	scroll-behavior: smooth;
+}
 /* 
 .devider {
 	max-width: 420px;

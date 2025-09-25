@@ -1,0 +1,30 @@
+.history {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 18px;
+    padding: 60px 30px 100px;
+}
+
+.history-title {
+    color: var(--title-color);
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 0 50px 0;
+}
+
+.history-img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+/* 
+.history-description {
+} */
+
+
+@media(max-width: 480px) {
+    .history-description {
+        font-size: 14px;        
+    }
+
+}
