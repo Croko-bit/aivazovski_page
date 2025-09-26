@@ -24,6 +24,9 @@
 }
 
 @media(max-width: 480px) {
+    .about {
+        padding: 60px 10px 100px;
+    }
     .about-subtitle, 
     .about-description {
         font-size: 14px;        
